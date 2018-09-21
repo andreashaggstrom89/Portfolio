@@ -16,4 +16,4 @@ The model is a recurrent neural network with LSTM cells that is capable of optim
 
 Time-series
 
-The time-series project is a recurrent neural network predicting the opening OMXS30 Stock Index price five days ahead in time using inputs of 180 days of prices and variables such as daily high, low and volume to describe intra-day variations. The model outperformed conventional time-series forecasting (ARIMA) with lower RMSE and faster reaction to swift price changes.
+The time-series project is a recurrent neural network predicting the opening OMXS30 Stock Index price five days ahead in time using inputs of 180 days of opening prices and variables such as high, low and volume to describe intra-day variations. The model outperformed conventional time-series forecasting (ARIMA) with lower RMSE and faster reaction to swift price changes.
