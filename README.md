@@ -4,7 +4,7 @@
 
 This is an image classification project using transfer learning techniques. One of the top performing models in the Imagenet  competion (ILSVRC) is used to classify images on new data and classes. This is done by replacing and training the top layer while remaining all other wheights that was trained on Imagenet frozen. This method preserves the original model's strong ability to detect features in images and transfer the predictive power to new tasks, commonly known as transfer learning.
 
-The new top layes only needed to be trained for 20 epochs on a little more than 27,000 images to reach an accuracy of 84%. This is a lot less computational time needed compared to training the model from scratch. Also the dataset to train the top layer did not need to be so large compared to Imagenet with millions of images that the base model was originally trained on.
+The new top layer only needed to be trained for 20 epochs on a little more than 27,000 images to reach an accuracy of 84%. This is a lot less computational time needed compared to training the model from scratch. Also the training dataset did not need to be so large compared to Imagenet with millions of images that the base model was originally trained on.
 
 
 Sentiment
