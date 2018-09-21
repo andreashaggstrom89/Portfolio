@@ -11,7 +11,7 @@ Sentiment
 
 Sentiment analysis machines are increasingly popular since companies want to be able to track how customers perceive their products and brand in comment fields, Twitter etc. In this project, over 20,000 reviews from a fashion retail company is used to find the sentiment in the comment that made the customer also give a 5-star rating. 
 
-The model that is built is a recurrent neural network with LSTM cells that is capable of optimizing its predcitions while remembering contexts from far earlier. The words are also preprocessed with an embedding technique that connects words with similar meanings and contexts. After 40 epochs it was able to predict the correct sentiment and corresponding number of stars with an accuracy of 81%. Compared to a simpler machine learning model (Random forrest with 100 units) that only slightly predicted better than chance (average f1-score: 52%).
+The model is a recurrent neural network with LSTM cells that is capable of optimizing its predcitions while remembering contexts from far earlier. The words are also preprocessed with an embedding technique that connects words with similar meanings and contexts. After 40 epochs it was able to predict the correct sentiment and corresponding number of stars with an accuracy of 81%. Compared to a simpler machine learning model (Random forrest with 100 units) that only slightly predicted better than chance (average f1-score: 52%).
 
 
 Time-series
