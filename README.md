@@ -7,7 +7,7 @@ This is an image classification project using transfer learning techniques. One 
 The new top layer only needed to be trained for 20 epochs on a little more than 27,000 images to reach an accuracy of 84%. This is a lot less computational time needed compared to training the model from scratch. Also, the training dataset did not need to be so large compared to Imagenet with millions of images that the base model was originally trained on.
 
 
-Sentiment
+NLP Sentiment
 
 Sentiment analysis machines are increasingly popular since companies want to be able to track how customers perceive their products and brand in comment fields, Twitter etc. In this project, over 20,000 reviews from a fashion retail company is used to find the sentiment in the comment that made the customer also give a 5-star rating. 
 
